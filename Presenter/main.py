@@ -1,3 +1,3 @@
-from Model.View import view
+from View.View import view
 
 view()
