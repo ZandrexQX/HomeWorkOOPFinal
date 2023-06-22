@@ -9,6 +9,8 @@ class Model():
 class Calculator(Model):
 
     def run(self):
-        a1 = (float)(self.a)
-        b1 = (float)(self.b)
-        return inputData(a1, self.oper, b1)
+        try:
+            a1 = (float)(self.a)
+            b1 = (float)(self.b)
+        except: return "Введенные данные неверны"
+        return round(inputData(a1, self.oper, b1),4)
