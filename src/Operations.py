@@ -1,7 +1,7 @@
 class Operations:
     def __init__(self, a, b):
-        self.__a = a
-        self.__b = b
+        self.a = a
+        self.b = b
 
 class Add (Operations):
     def oper(self):
