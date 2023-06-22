@@ -9,6 +9,6 @@ class Model():
 class Calculator(Model):
 
     def run(self):
-        if (self.a).isdigit() and (self.b).isdigit():
-            return inputData(self.a, self.oper, self.b)
-        else: return "Введенные данные не являются числами"
+        a1 = (float)(self.a)
+        b1 = (float)(self.b)
+        return inputData(a1, self.oper, b1)
